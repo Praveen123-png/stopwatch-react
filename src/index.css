@@ -1,0 +1,72 @@
+*{
+    /* background-color: hsl(0, 2%, 12%);
+    color: hsl(0, 0%, 89%); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 80%);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+}
+
+.display{
+    font-size: 3rem;
+}
+
+button{
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    padding: .5rem;
+
+}
+
+.startBtn{
+    background-color: hsl(120, 90%, 60%);
+    box-shadow: 3px 3px hsl(120, 90%, 10%);
+}
+.startBtn:hover{
+    background-color: hsl(120, 90%, 45%);
+}
+.startBtn:active{
+    box-shadow: inset 3px 3px hsl(120, 90%, 10%);
+    transform: scale(0.98);
+}
+
+
+.stopBtn{
+    background-color: hsl(0, 90%, 60%);
+    box-shadow: 3px 3px hsl(0, 90%, 10%);
+}
+.stopBtn:hover{
+    background-color: hsl(0, 90%, 45%);
+}
+.stopBtn:active{
+    box-shadow: inset 3px 3px hsl(0, 90%, 10%);
+    transform: scale(0.98);
+}
+
+
+.resetBtn{
+    background-color: hsl(209, 90%, 60%);
+    box-shadow: 3px 3px hsl(209, 90%, 10%);
+}
+.resetBtn:hover{
+    background-color: hsl(209, 90%, 45%);
+}
+.resetBtn:active{
+    box-shadow: inset 3px 3px hsl(209, 90%, 10%);
+    transform: scale(0.98);
+}
